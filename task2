@@ -1,0 +1,40 @@
+public class Try {
+    public static void main(String[] args) {
+        int num = 385;
+
+        //1
+        System.out.println("1) " +
+                "\n" + num / 100 + " => трёхзначное;");
+
+
+        //2
+        if(num%10 == 7){
+            boolean lastNumberIsSeven = true;
+            System.out.println("2) " +
+                    "\nда, последння 7; ");
+        } else{
+            boolean lastNumberIsSeven = false;
+            System.out.println("2) " +
+                    "\nнет, последняя цифра не 7; ");
+        }
+
+        /*System.out.println("2)" +
+                "\n" + num + 3);
+*/
+
+        //3
+        if (num % 2 != 0) {
+
+            System.out.println("3) " +
+                    "\nЧётное");
+
+
+            }
+
+        }
+    }
+
+/*Создайте число.
+ 1)Определите, является ли число трехзначным.
+ 2)Определите, является ли его последняя цифра семеркой.
+ 3)Определите, является ли число четным*/
