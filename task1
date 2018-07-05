@@ -13,7 +13,7 @@ public class CreateNumber {
         int days = hours / 24;
         int weeks = days / 7;
 
-        System.out.println("1)Количество секунд: " + seconds);
+        System.out.println("1)Кол-во секунд: " + seconds);
         System.out.println("Кол-во минут : " + minutes );
         System.out.println("OR");
 
@@ -21,17 +21,20 @@ public class CreateNumber {
 
 
 
-        System.out.println("2)Количество часов: "  + hours +
+        System.out.println("2)Кол-во часов: "  + hours +
                 "\nКол-во минут: " + minutes +
                 "\nКол-во секунд: " + seconds);
         System.out.println("OR");
+	
 //3
 
-        System.out.println("3)Количество дней: " + days +
+        System.out.println("3)Кол-во дней: " + days +
                 "\nКол-во часов: "  + hours +
                 "\nКол-во минут: " + minutes +
                 "\nКол-во секунд: " + seconds);
         System.out.println("OR");
+	
+	
 //4
 
         System.out.println("4)Кол-во недель: " + weeks +
