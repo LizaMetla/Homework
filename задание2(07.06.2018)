@@ -1,0 +1,20 @@
+package task2;
+
+public class task {
+	public static void main(String args[]) {
+	int a = 0; 
+    int b = 10; 
+    
+    int num = a + (int) (Math.random() * b);
+    
+    System.out.println(num);
+    
+    for (int i=2; i < num; i++) {
+    	if (num%i ==0) {
+    		System.out.println("Это число не является простым!!!");
+    		return;
+    	}
+    }
+    System.out.println("Всё верно , это простое число!!! Ура");
+	}
+}
