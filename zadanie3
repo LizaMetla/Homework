@@ -1,0 +1,26 @@
+package hw;
+import java.util.Random;
+
+public class zadan3 {
+	
+	public static void main (String args[]) {
+		
+	Random ran = new Random();	
+	
+	int n = 1 + ran.nextInt(99);
+	
+	int a = 3 ; 
+	
+	int  result = 0;
+	
+	for (int i = 1; i<=n; i++){
+		
+		result += a*i;
+	}
+	System.out.println("Сумма первых " + n + " чисел кратных 3 равна: " + 
+	"\n" + result);
+     }
+
+
+	}
+
